@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8"/>
+  <meta name ="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;800&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!--SEO-->
+  <title>Bake With Me | Forum</title>
+  <meta name="description" content="Bake With Me - bakes and deserts made with love. ">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!--NAVBAR-->
+<header>
+   <nav class="navbar">
+    <div class="nav-left">
+      <a href="index.html" class="logo">Bake With Me</a>
+    </div>
+
+    <ul class="nav-center">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="recipes.html">Recipes</a></li>
+      <li><a href="tips.html">Tips and Tricks</a></li>
+      <li><a href="forum.html">Forum</a></li>
+    </ul>
+
+    <div class="nav-right">
+      <a href="contact.html" class="nav-btn">Contact Us</a>
+    </div>
+  </nav>
+</header>
+
+<!--Main section-->
+<br></br>
+<section class="forum-hero">
+  <p class="forum-tag">Community Corner</p>
+  <h1>Baking Forum</h1>
+  <p>
+    Ask questions, share your baking wins, swap ideas, and chat with other dessert lovers.
+  </p>
+</section>
+
+<section class="forum-layout">
+  <div class="forum-main">
+    <section class="forum-form-card">
+      <h2>Start a Discussion</h2>
+      <p>Got a question about cakes, cookies, bread, or baking disasters? Post it here.</p>
+
+      <form class="forum-form" id="forumForm">
+        <input type="text" id="name" placeholder="Your name" required>
+        <input type="text" id="title" placeholder="Discussion title" required>
+        <textarea id="message" placeholder="Write your message here..." required></textarea>
+        <button type="submit">Post Discussion</button>
+      </form>
+    </section>
+    <section class="forum-posts">
+      
+      <div id="posts"></div>
+    </section>
+  </div>
+
+  <aside class="forum-sidebar">
+    <div class="sidebar-box">
+      <h3>Popular Topics</h3>
+      <ul>
+        <li>Cake decorating</li>
+        <li>Cookie tips</li>
+        <li>Bread baking</li>
+        <li>Beginner questions</li>
+      </ul>
+    </div>
+
+    <div class="sidebar-box">
+      <h3>Forum Rules</h3>
+      <p>Be kind, be helpful, and keep the chat baking-related.</p>
+    </div>
+
+    <div class="sidebar-box">
+      <h3>Featured Question</h3>
+      <p>What’s one baking tip you wish you knew earlier?</p>
+    </div>
+  </aside>
+</section>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Bake With Me. All rights reserved.</p>
+  </footer>
+<script src="js/script.js"></script>
+</body>
+</html>
